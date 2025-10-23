@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-GB">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
     </head>
+    <title>Ossi Marttinen - Portfolio</title>
     <body>
         <div>
             <div class="container">
@@ -16,19 +17,19 @@
                         <div class="tooltip-container">
                             <span class="tooltip-text">GitHub</span>
                             <a href="https://github.com/osmartti" target="_blank">
-                                <img src="images/github.png" class="social-pic" alt="github logo"/>
+                                <img src="images/github.svg" class="social-pic" alt="github logo"/>
                             </a>
                         </div>
                         <div class="tooltip-container">
                             <span class="tooltip-text">LinkedIn</span>
                             <a href="https://www.linkedin.com/in/ossi-marttinen-38823414b" target="_blank">
-                                <img src="images/linkedin.png" class="social-pic" alt="linkedin logo"/>
+                                <img src="images/linkedin.svg" class="social-pic" alt="linkedin logo"/>
                             </a>
                         </div>
                         <div class="tooltip-container">
                             <span class="tooltip-text">Mail</span>
                             <a href="mailto:ossi.marttinen@gmail.com" target="_blank">
-                                <img src="images/mail.png" class="social-pic" alt="mail logo"/>
+                                <img src="images/envelope.svg" class="social-pic" alt="mail logo"/>
                             </a>
                         </div>
                     </div>
@@ -45,7 +46,7 @@
                         <div class="introduction">
                             <img src="images/profile_picture_2.jpg" alt="profile-picture" class="profile-pic fade-in delay-2"/>
                             <div>
-                                <h2 class="fade-in delay-1">Ossi Marttinen</h2>
+                                <h1 class="fade-in delay-1">Ossi Marttinen</h2>
                                 <p class="fade-in delay-2">Developer & Game Dev (Art/Code) Hobbyist based in Finland</p>
                             </div>
                         </div>
@@ -96,21 +97,21 @@
                         <div class="topic-container fade-in delay-1">
                             <div>
                                 <h2>Find me</h2>
-                                <a href="https://www.linkedin.com/in/ossi-marttinen-38823414b" target="_blank">
+                                <a href="https://www.linkedin.com/in/ossi-marttinen-38823414b" target="_blank" class="link">
                                     <div class="social-link-container">
-                                        <img src="images/linkedin.png" alt="linkedin image" />
+                                        <img src="images/linkedin.svg" alt="linkedin image" />
                                         <p>Ossi Marttinen</p>
                                     </div>
                                 </a>
-                                <a href="https://github.com/osmartti" target="_blank">
+                                <a href="https://github.com/osmartti" target="_blank" class="link">
                                     <div class="social-link-container">
-                                        <img src="images/github.png" alt="github image" />
+                                        <img src="images/github.svg" alt="github image" />
                                         <p>@osmartti</p>
                                     </div>
                                 </a>
-                                <a href="mailto:ossi.marttinen@gmail.com" target="_blank">
+                                <a href="mailto:ossi.marttinen@gmail.com" target="_blank" class="link">
                                     <div class="social-link-container">
-                                        <img src="images/mail.png" alt="mail to image" />
+                                        <img src="images/envelope.svg" alt="mail to image" />
                                         <p>ossi.marttinen@gmail.com</p>
                                     </div>
                                 </a>
@@ -297,33 +298,32 @@
                     
                 </div>
                 <div class="footer delayed-element-content">
-                        <p>&copy; 2025 Ossi Marttinen, All Rights Reserved.</p>
-                    </div>
+                    <p>&copy; 2025 Ossi Marttinen, All Rights Reserved.</p>
                 </div>
             </div>
         </div>
 
-    <!-- JS -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const buttons = document.querySelectorAll('.header-button-container button');
-            const contents = document.querySelectorAll('.tab-content');
+        <!-- JS -->
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const buttons = document.querySelectorAll('.header-button-container button');
+                const contents = document.querySelectorAll('.tab-content');
 
-            buttons.forEach(button => {
-                button.addEventListener('click', () => {
-                    contents.forEach(content => content.classList.remove('active'));
-                    buttons.forEach(btn => btn.classList.remove('active'));
-                    const targetId = button.getAttribute('data-tab');
-                    const targetContent = document.getElementById(targetId);
-                    if (targetContent) {
-                        targetContent.classList.add('active');
-                    }
-                    button.classList.add('active');
+                buttons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        contents.forEach(content => content.classList.remove('active'));
+                        buttons.forEach(btn => btn.classList.remove('active'));
+                        const targetId = button.getAttribute('data-tab');
+                        const targetContent = document.getElementById(targetId);
+                        if (targetContent) {
+                            targetContent.classList.add('active');
+                        }
+                        button.classList.add('active');
+                    });
                 });
             });
-        });
-    </script>
-
+        </script>
 
     </body>
+    <footer/>
 </html>

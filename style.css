@@ -9,13 +9,25 @@
 :root {
     --page-background-color: rgba(225, 225, 225, 50);
     --underline-color: rgb(100, 100, 100);
+    --light-text-color: rgba(60, 60, 60, 50);
+    --font-color: rgb(35, 0, 35);
+    --bright-font-color: rgb(70, 25, 70);
+    --hover-color: rgb(200, 125, 200);
+    --active-button-color: rgb(175, 125, 175);
+    --chip-container-color: rgba(240, 240, 240, 50);
+    --link-color: rgb(102, 58, 135);
+}
+/* :root {
+    --page-background-color: rgba(225, 225, 225, 50);
+    --underline-color: rgb(100, 100, 100);
     --light-text-color: rgba(125, 125, 125, 50);
     --font-color: rgb(35, 0, 35);
     --bright-font-color: rgb(70, 25, 70);
     --hover-color: rgb(200, 125, 200);
     --active-button-color: rgb(175, 125, 175);
     --chip-container-color: rgba(240, 240, 240, 50);
-}
+    --link-color: rgb(102, 58, 135);
+} */
 
 body {
     color: var(--font-color);
@@ -76,7 +88,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 2rem;
+    border-radius: 10%;
 }
 
 /* introduction */
@@ -104,7 +116,6 @@ body {
 
 .social-pic {
     border: 1rem;
-    border-radius: 5%;
     max-width: 2rem;
     max-height: 2rem;
     margin: 0 1rem 0 1rem;
@@ -127,6 +138,11 @@ body {
     align-items: center;
     border-radius: 0.5rem;
     padding: 0 1rem 0 0
+}
+
+.link {
+    text-decoration: underline;
+    color: var(--link-color)
 }
 
 .social-link-container img {
