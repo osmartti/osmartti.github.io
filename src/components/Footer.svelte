@@ -1,0 +1,3 @@
+<div role="contentinfo" class="footer delayed-element-content">
+    <p>&copy; 2025 Ossi Marttinen, All Rights Reserved.</p>
+</div>
