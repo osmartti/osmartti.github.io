@@ -201,6 +201,10 @@
                     />
                     <p>Svelte</p>
                 </div>
+                <div class="technology-container">
+                    <img src="images/technologies/vue.png" alt="vue.png" />
+                    <p>Vue</p>
+                </div>
             </div>
         </div>
     </div>
