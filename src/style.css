@@ -10,6 +10,7 @@
     --page-background-color: rgb(225, 225, 225);
     --underline-color: rgb(100, 100, 100);
     --light-text-color: rgba(60, 60, 60, 0.9);
+    --dark-code-background-color: rgb(200, 200, 200);
     --font-color: rgb(35, 0, 35);
     --bright-font-color: rgb(70, 25, 70);
     --hover-color: rgb(200, 125, 200);
@@ -347,6 +348,21 @@ body {
 .md-image {
   max-width: 100%;
   height: auto;
+}
+
+.blog-post pre {
+    max-width: 100%;
+    overflow-x: auto;
+    text-wrap: auto;
+    background-color: var(--dark-code-background-color);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+}
+
+.blog-post code {
+    background-color: var(--dark-code-background-color);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
 }
 
 .blog-card-container img {

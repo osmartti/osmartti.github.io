@@ -33,7 +33,7 @@
 	}
 
 	$: slug = $params?.slug;
-	$: if (slug) loadPost(slug); // ✓ reactive block only reads slug, mutates nothing
+	$: if (slug) loadPost(slug);
 </script>
 
 <div class="fade-in delay-1 blog-post">

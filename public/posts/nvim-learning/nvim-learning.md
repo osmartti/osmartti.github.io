@@ -43,8 +43,6 @@ LazyVim was easy to install. All I needed to do was to go to their [installation
 ```bash
   git clone https://github.com/LazyVim/starter ~/.config/nvim
 ```
-```
-```
 Then afterwards I just removed the `.git` folder, so that I could add it to my own repository in the future.
 
 After those steps I just used command `nvim` to open the editor and Voila!
