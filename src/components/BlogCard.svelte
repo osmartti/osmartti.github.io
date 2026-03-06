@@ -1,10 +1,10 @@
 <script>
   import { link } from 'svelte-spa-router';
   let { 
-      title,
-      imageSrc,
-      imageAlt,
-      path
+  	title,
+  	imageSrc,
+  	imageAlt,
+  	path
   } = $props();
 </script>
 

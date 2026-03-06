@@ -1,5 +1,5 @@
 export default {
-  compilerOptions: {
-    dev: process.env.NODE_ENV !== 'production'
-  }
+	compilerOptions: {
+		dev: process.env.NODE_ENV !== 'production'
+	}
 };

@@ -8,11 +8,11 @@
   import BlogPost from "./components/BlogPost.svelte";
   import Footer from "./components/Footer.svelte";
   const routes = {
-    "/": HomeSection,
-    "/work": WorkProjectsSection,
-    "/projects": PersonalProjectsSection,
-    "/posts": Blog,
-    "/blog/:slug": BlogPost,
+  	"/": HomeSection,
+  	"/work": WorkProjectsSection,
+  	"/projects": PersonalProjectsSection,
+  	"/posts": Blog,
+  	"/blog/:slug": BlogPost
   };
 </script>
 
