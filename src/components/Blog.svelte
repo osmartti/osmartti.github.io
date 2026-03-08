@@ -11,11 +11,11 @@
 			date: "2026/02/26"
 		},
 		{
-			title: "Adding Steam Achievements to my Godot Game",
+			title: "Adding Steam achievements to my Godot game",
 			folder: "godot-steam-achievements",
 			slug: "godot-steam-achievements",
 			imageSrc: "images/godot_plus_steam.png",
-			imageAlt: "Adding Steam Achievements to my Godot Game",
+			imageAlt: "Adding Steam achievements to my Godot game",
 			date: "2026/03/10"
 		}
 	];
@@ -23,7 +23,7 @@
 </script>
 
 <div id="blog" class="blog fade-in delay-1">
-	<h2>Posts</h2>
+	<h2 class="padded-title">Posts</h2>
 	<div class="topic-container">
 		<div class="blog-card-container">
 			{#each posts as post (post.title)}

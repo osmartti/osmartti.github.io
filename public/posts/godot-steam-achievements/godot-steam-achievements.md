@@ -1,4 +1,4 @@
-## Godot Steam Achievements
+## Steam achievements in Godot
 
 <img src="/images/godot_splash_screen_original_logo_dark.png" alt="godot-splash" class="md-image" />
 

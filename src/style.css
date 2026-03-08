@@ -8,15 +8,16 @@
 
 :root {
     --page-background-color: rgb(225, 225, 225);
+    --page-conent-background-color: rgb(220, 220, 220);
     --underline-color: rgb(100, 100, 100);
     --light-text-color: rgba(60, 60, 60, 0.9);
     --dark-code-background-color: rgb(200, 200, 200);
     --font-color: rgb(35, 0, 35);
     --bright-font-color: rgb(70, 25, 70);
-    --hover-color: rgb(200, 125, 200);
-    --active-button-color: rgb(175, 125, 175);
+    --hover-color: rgb(101, 131, 137);
+    --active-button-color: rgb(91, 121, 127);
     --chip-container-color: rgb(240, 240, 240);
-    --link-color: rgb(102, 58, 135);
+    --link-color: rgb(50, 70, 70);
 }
 
 body {
@@ -37,16 +38,21 @@ body {
     gap: 1em;
     margin: 0 auto;
     padding: 0 1rem;
+    background-color: var(--page-conent-background-color);
 }
 
 .container > div {
-    padding: 2rem 0;
+    padding: 1rem 0 2rem 0;
+}
+
+.topic-container > h2 {
+    color: red;
 }
 
 .container > div.header {
   grid-area: header;
   text-align: center;
-  padding: 1rem 0;
+  padding: 1rem 0 0 0;
 }
 
 .container > div.content {
@@ -75,10 +81,10 @@ body {
     justify-content: end;
     margin: 0 auto;
     background-image: url("/images/header_photo.jpeg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 10%;
+    border-radius: 0%;
 }
 
 /* introduction */
@@ -90,18 +96,23 @@ body {
     max-width: 60rem;
     margin: 0 auto;
     align-items: center;
+    padding: 0 0 1.5rem 0;
 }
 
 .introduction div {
     text-align: center;
 }
 
+.intorduction-text {
+    padding: 0 5rem 0 0;
+}
+
 .profile-pic {
     border-radius: 100%;
     border-color: var(--hover-color);
     border-style: outset;
-    max-width: 6rem;
-    max-height: 6rem;
+    max-width: 12rem;
+    max-height: 12rem;
 }
 
 .social-link-container {
@@ -148,7 +159,7 @@ body {
     height: 3rem;
     border: none;
     cursor: pointer;
-    background-color: var(--page-background-color);
+    background-color: var(--page-content-background-color);
     color: var(--font-color)
 }
 
@@ -360,7 +371,6 @@ body {
 }
 
 .blog-post code {
-    background-color: var(--dark-code-background-color);
     padding: 0.2rem 0.4rem;
     border-radius: 0.3rem;
 }
@@ -380,6 +390,9 @@ body {
     .technologies-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .padded-title {
+        padding: 0 0 0 1rem;
+    }
 }
 
 @media (max-width: 500px) {
@@ -398,5 +411,15 @@ body {
     }
     .blog-card-container {
       grid-template-columns: 1fr;
+    }
+    .profile-pic {
+        max-width: 8rem;
+        max-height: 8rem;
+    }
+    .intorduction-text {
+        padding: 0;
+    }
+    .padded-title: {
+        padding: 0rem;
     }
 }

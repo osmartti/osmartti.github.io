@@ -1,7 +1,7 @@
 <div id="work">
 	<div class="topic-container fade-in delay-1" style="display: block;">
 		<div>
-			<h2>Projects & Roles</h2>
+			<h2 class="padded-title">Projects & roles</h2>
 			<div class="work-projects-container fade-in-text delay-2">
 				<div class="work-project">
 					<h3>Employee Experience</h3>
@@ -102,7 +102,7 @@
 	</div>
 	<div class="topic-container fade-in delay-1" style="display: block;">
 		<div>
-			<h2>Technologies & Tools</h2>
+			<h2 class="padded-title">Technologies & tools</h2>
 			<div class="technologies-container fade-in-text delay-2">
 				<div class="technology-container">
 					<img
