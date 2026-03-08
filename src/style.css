@@ -22,8 +22,8 @@
 
 body {
     color: var(--font-color);
-    /* font-family: Georgia, serif; */
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: Georgia, serif;
+    /* font-family: "Source Sans Pro", sans-serif; */
     background-color: var(--page-background-color);
 }
 
