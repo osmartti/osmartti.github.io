@@ -5,15 +5,19 @@
 ### Introduction
 I have been developing my game Afloat for a while now, and since the game release is getting closer, I wanted to implement Steam Achievements in the game. I have been using Godot as my game engine for the entirety of the development, and I wanted to share my experience with implementing Steam Achievements in Godot. In this blog post, I will go through the steps I took to implement Steam Achievements.
 
-### What is Godot
+### Semantics
+
+#### What is Godot
 [Godot](https://godotengine.org/) is a free and open-source game engine that provides a comprehensive set of tools for game development. It supports both 2D and 3D game creation, making it a versatile choice for developers. With its user-friendly interface and powerful features, Godot has gained popularity among indie developers and hobbyists alike.
 
-I have been developing my game Afloat with Godot for 2 years now. I have been liking Godot a lot. Open-source aspect is really nice, and the community seems to be really helpful. Also the engine is easy to use and has great documentation. Maybe I will create a blog post about my journey with Godot in the future, but in this post I will focus on the steam integration part. I have used Godot 4.4.1 for the project, but the implementation should be similar for other versions of Godot as well.
+I have been developing my game Afloat with Godot for 2 years now. I have been liking Godot a lot. Open-source aspect is really nice, and the community seems to be really helpful. Also the engine is easy to use and has great documentation. Maybe I will create a blog post about my journey with Godot in the future, but in this post I will focus on the steam integration part.
 
-### What are Steam achievements?
+I have used Godot 4.4.1 for the project, but the implementation should be similar for other versions of Godot as well.
+
+#### What are Steam achievements?
 [Steam Achievements](https://partner.steamgames.com/doc/features/achievements) are a feature of the Steam platform that allows game developers to create in-game accomplishments for players to earn. These achievements can be used to enhance player engagement, encourage exploration, and provide a sense of accomplishment. Players can view their earned achievements on their Steam profile, and they can also share them with friends.
 
-For my game I wanted to implement Steam Achievements to provide players a sense of accomplishment. I know that there a some people who are really interested in completing all of the achievements in a game, so I wanted to also provide that opportunity in my game. For my case I first implemented 13 achievements varying from easy to hard.
+For my game I wanted to implement Steam Achievements to provide players a sense of accomplishment. I know that there a some people who are really interested in completing all of the achievements in a game, so I wanted to also provide that opportunity in my game. For my case I first implemented around 10 achievements varying from easy to hard.
 
 Without further ado, let's get into the implementation part.
 
@@ -115,7 +119,7 @@ After creating first icons, I added more icons for the rest of the achievement i
 
 <img src="/images/achievement_whole.png" alt="achievement_whole" class="md-image" />
 
-Then I created a `lua` script for splitting and exporting the icons.
+Then I created a `lua` script for splitting and exporting the icons. This is completely optional step, but I made it so it is easier to export the icons in the future if I need to make some changes to them. The script takes the original sprite and splits it into 64x64 icons and saves them as separate `PNG` files.
 
 ```lua
 local spr = app.activeSprite
@@ -186,3 +190,11 @@ After unlocking the achievements, I checked my Steam profile to see if they were
 Implementing Steam achievements in my game was a great learning experience. It allowed me to learn how to integrate Steamworks API with Godot and how to create and manage achievements in the Steamworks dashboard. I am happy how this turned out and I hope my achievements are not too difficult to unlock for the players. :)
 
 If you are creating a game with Godot and you want to implement Steam achievements, I highly recommend using the GodotSteam plugin. It provides a simple and easy-to-use interface for interacting with the Steamworks API, and it made the implementation process much smoother for me.
+
+#### Resources
+- [Godot Engine](https://godotengine.org/) - official website for the Godot game engine
+- [GodotSteam Plugin](https://godotengine.org/asset-library/asset/2445) - plugin for integrating Steamworks API with Godot
+- [Steamworks API](https://partner.steamgames.com/doc/features/achievements) - official documentation for Steam achievements
+- [Asesprite](https://www.aseprite.org/) - Software for creating pixel art and animations
+- [Godot steam integration tutorial](https://www.youtube.com/watch?v=l0b5mh2HjyE) - great video tutorial from Gwizz about Steam integration in Godot
+- [Godot steam achievements](https://www.youtube.com/watch?v=dg6fSBe5EEE) - great & short video tutorial from Gwizz about implementing Steam achievements in Godot

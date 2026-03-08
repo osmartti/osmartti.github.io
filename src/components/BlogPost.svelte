@@ -13,7 +13,7 @@
 		},
 		godot_steam_achievements: {
 			filename: "godot-steam-achievements.md",
-			publish_date: "2026/03/10",
+			publish_date: "2026/03/08",
 			read_time: "10"
 		}
 	};
