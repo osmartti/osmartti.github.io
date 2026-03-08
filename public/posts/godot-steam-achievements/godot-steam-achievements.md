@@ -13,7 +13,7 @@ I have been developing my game Afloat with Godot for 2 years now. I have been li
 ### What are Steam achievements?
 [Steam Achievements](https://partner.steamgames.com/doc/features/achievements) are a feature of the Steam platform that allows game developers to create in-game accomplishments for players to earn. These achievements can be used to enhance player engagement, encourage exploration, and provide a sense of accomplishment. Players can view their earned achievements on their Steam profile, and they can also share them with friends.
 
-For my game I wanted to implement Steam Achievements to provide players a sense of accomplishment. I know that there a some people who are really interested in completing all of the achievements in a game, so I wanted to also provide that opportunity in my game. For my case I implemented 13 achievements varying from easy to hard.
+For my game I wanted to implement Steam Achievements to provide players a sense of accomplishment. I know that there a some people who are really interested in completing all of the achievements in a game, so I wanted to also provide that opportunity in my game. For my case I first implemented 13 achievements varying from easy to hard.
 
 Without further ado, let's get into the implementation part.
 
