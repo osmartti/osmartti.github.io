@@ -22,8 +22,13 @@
 
 body {
     color: var(--font-color);
-    font-family: Georgia, serif;
+    /* font-family: Georgia, serif; */
+    font-family: "Source Sans Pro", sans-serif;
     background-color: var(--page-background-color);
+}
+
+code {
+  font-family: "Hack", monospace;
 }
 
 .container {
@@ -362,11 +367,6 @@ body {
     overflow-x: auto;
     text-wrap: auto;
     background-color: var(--dark-code-background-color);
-    padding: 0.2rem 0.4rem;
-    border-radius: 0.3rem;
-}
-
-.blog-post code {
     padding: 0.2rem 0.4rem;
     border-radius: 0.3rem;
 }
