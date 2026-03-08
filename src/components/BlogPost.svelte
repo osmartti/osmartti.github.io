@@ -8,13 +8,18 @@
 	const posts = {
 		nvim_learning: {
 			filename: "nvim-learning.md",
-			publish_date: "2026/02/2026",
+			publish_date: "2026/02/26",
 			read_time: "5"
+		},
+		godot_steam_achievements: {
+			filename: "godot-steam-achievements.md",
+			publish_date: "2026/03/10",
+			read_time: "10"
 		}
 	};
 
 	async function loadPost(slug) {
-		const key = slug.replace("-", "_");
+		const key = slug.replaceAll("-", "_");
 		const post = posts[key];
 		if (!post?.filename) {
 			content = "# Post not found";

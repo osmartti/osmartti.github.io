@@ -7,9 +7,19 @@
 			folder: "nvim-learning",
 			slug: "nvim-learning",
 			imageSrc: "images/nvim-2.png",
-			imageAlt: "test"
+			imageAlt: "learning neovim",
+			date: "2026/02/26"
+		},
+		{
+			title: "Adding Steam Achievements to my Godot Game",
+			folder: "godot-steam-achievements",
+			slug: "godot-steam-achievements",
+			imageSrc: "images/godot_plus_steam.png",
+			imageAlt: "Adding Steam Achievements to my Godot Game",
+			date: "2026/03/10"
 		}
 	];
+	posts.sort((a, b) => new Date(b.date) - new Date(a.date));
 </script>
 
 <div id="blog" class="blog fade-in delay-1">
