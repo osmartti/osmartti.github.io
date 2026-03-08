@@ -174,9 +174,13 @@ After I had uploaded the icons for each achievement and saved the changes, I sti
 <img src="/images/achievement_steam_2.png" alt="publish_steam" class="md-image" />
 
 ### Testing achievements
-After all the steps were completed I proceeded to test the achievement in my game. Now that the Steam integration was implemented, I could connect to Steam even when I ran the game from the Godot editor. I ran the game and unlocked some achievements to see if they were working correctly. After unlocking the achievements, I checked my Steam profile to see if they were displayed correctly.
+After all the steps were completed I proceeded to test the achievement in my game. Now that the Steam integration was implemented, I could connect to Steam even when I ran the game from the Godot editor. I ran the game and unlocked some achievements to see if they were working correctly.
 
-Cool and nice!
+<img src="/images/steam_achievement_1.png" alt="steam_achievement_1" class="md-image" />
+
+After unlocking the achievements, I checked my Steam profile to see if they were displayed correctly.
+
+<img src="/images/steam_achievement_2.png" alt="steam_achievement_2" class="md-image" />
 
 ### Conclusion
 Implementing Steam achievements in my game was a great learning experience. It allowed me to learn how to integrate Steamworks API with Godot and how to create and manage achievements in the Steamworks dashboard. I am happy how this turned out and I hope my achievements are not too difficult to unlock for the players. :)
