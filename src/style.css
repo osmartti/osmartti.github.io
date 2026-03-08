@@ -45,10 +45,6 @@ body {
     padding: 1rem 0 2rem 0;
 }
 
-.topic-container > h2 {
-    color: red;
-}
-
 .container > div.header {
   grid-area: header;
   text-align: center;
@@ -243,7 +239,7 @@ body {
     width: 11rem;
     height: 5rem;
     padding: 1rem 1rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     background-color: var(--chip-container-color);
 }
 
@@ -379,7 +375,7 @@ body {
   object-fit: fill;
   max-width: 100%;
   height: 10rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -419,7 +415,7 @@ body {
     .intorduction-text {
         padding: 0;
     }
-    .padded-title: {
+    .padded-title {
         padding: 0rem;
     }
 }
