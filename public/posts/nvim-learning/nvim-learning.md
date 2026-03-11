@@ -132,7 +132,7 @@ $ <- jump to end of line
 
 gg <- top of file
 G <- bottom of file
-55G <- go to line 50
+50G <- go to line 50
 
 d <- delete
 dd <- delete line
@@ -159,20 +159,20 @@ N <- previous match
 ```
 
 You can always use command `:h` to open help.txt file. It contains really extensive user manuals for using and configuring nvim. Here I have listed some commands I have found useful for a beginner like me:
+ 
+### Pushing the config to github
+After all this I decided to push my config to github, so that I can easily pull it from any machine. I created new repository and pushed my configurations there. Now when I want to use nvim on another machine I just do folllowing steps:
+```bash
+choco install neovim
+choco install tree-sitter
+
+<cd to nvim config folder, for example: cd ~/.config or C:\Users\myUser\AppData\Local>
+git clone https://github.com/osmartti/nvim-config.git nvim
+```
 
 ### Conclusion
-After one week, I can already feel small improvements.
+After one week, I can already feel small improvements. I rely less on the mouse and use hotkeys that are relevant. Still having a bit trouble using hjkl for navigation, but I am getting there. I have also learned to use some of the macros and they are really powerful.
 
-I navigate more deliberately.
-I think before I type.
-I rely less on the mouse.
+Editing with Neovim requires muscle memory, and that only comes with repetition. My plan is to use Neovim exclusively for a few months and see whether it truly transforms my workflow. I will probably do another post afterwards about my experience.
 
-But I’m still slow.
-
-Editing with Neovim requires muscle memory, and that only comes with repetition. My plan is to use Neovim exclusively for a few months and see whether it truly transforms my workflow.
-
-Will it replace VS Code permanently?
-
-Too early to say.
-
-But for the first time, I understand why people fall in love with it.
+Will it replace VS Code permanently? Too early to say. But now I start to understand why people fall in love with it.
