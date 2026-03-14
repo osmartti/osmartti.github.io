@@ -8,7 +8,7 @@
 			<h2 class="padded-title">Personal projects</h2>
 			<Card
 				title="afloat"
-				imageSrc="images/afloat_capsule_3.png"
+				imageSrc="images/afloat_capsule.png"
 				imageAlt="afloat_capsule"
 				imageHref=""
 				imageAriaLabel=""

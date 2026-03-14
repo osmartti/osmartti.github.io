@@ -18,24 +18,22 @@
 			<div class="fade-in-text delay-2">
 				<p>
 					I'm a full-stack developer with 8+ years of experience,
-					primarily working with JavaScript, TypeScript, and Java.
-					I've also explored Python and enjoy expanding my skill set
-					whenever I get the chance. Shell scripting is also near to
-					my heart, as I like to write all kinds of scripts.
+					primarily working with JavaScript, TypeScript, and Java. In
+					addition, I have experience in Python and shell scripting.
+					I'm passionate about building cool & efficient systems.
 				</p>
 				<p>
 					Beyond coding, I have hands-on experience with cloud
-					architecture and services including AWS, Azure, and SAP BTP.
-					I’ve also led a small development team, which was building
-					products. I have also worked as Scrum Master, and I hold
-					Professional Scrum Master 1 certification, which reflects my
-					ability embrace agile principles & team collaboration.
+					architecture and services, including AWS, Azure, and SAP
+					BTP. Most of my professional career I have worked as SAP
+					consultant. In the past years, I have led a development team
+					focusing on building SaaS products. I'm also a certified
+					Scrum Master (PSM 1), and I value agile principles & team
+					collaboration.
 				</p>
 				<p>
-					I’m a strong team player with solid communication skills. I
-					believe that great software is built not just through clean
-					code, but also through clear dialogue, mutual respect, and
-					shared ownership.
+					My passion is combining creative work & coding to create
+					cool digital experiences.
 				</p>
 			</div>
 		</div>
