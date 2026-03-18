@@ -31,6 +31,12 @@ code {
   font-family: "Hack", monospace;
 }
 
+:not(pre) > code {
+    background-color: var(--dark-code-background-color);
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.3rem;
+}
+
 .container {
     width: 100%;
     max-width: 40rem;
