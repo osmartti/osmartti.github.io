@@ -114,7 +114,7 @@ That was really simple example of editing a file in nvim. Its really about switc
 ### Helpful commands for beginners
 
 ```
-h, j, k, l <- left, down, up, down (arrow keys are also working)
+h, j, k, l <- left, down, up, right (arrow keys are also working)
 
 i <- Insert mode
 v <- visual mode
