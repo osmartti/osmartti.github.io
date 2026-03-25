@@ -14,10 +14,13 @@
     --dark-code-background-color: rgb(200, 200, 200);
     --font-color: rgb(35, 0, 35);
     --bright-font-color: rgb(70, 25, 70);
-    --hover-color: rgb(101, 131, 137);
-    --active-button-color: rgb(91, 121, 127);
+    /* --hover-color: rgb(101, 131, 137); */
+    /* --active-button-color: rgb(91, 121, 127); */
     --chip-container-color: rgb(240, 240, 240);
     --link-color: rgb(50, 70, 70);
+    --tag-color: rgb(68, 98, 128);
+    --hover-color: rgb(78, 108, 138);
+    --active-button-color: rgb(68, 98, 128);
 }
 
 body {
@@ -29,6 +32,12 @@ body {
 
 code {
   font-family: "Hack", monospace;
+}
+
+:not(pre) > code {
+    background-color: var(--dark-code-background-color);
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.3rem;
 }
 
 .container {
@@ -174,12 +183,14 @@ code {
 .header-button-container a.active {
     border-block-color: var(--hover-color);
     background-color: var(--active-button-color);
+    color: white;
     border-bottom: solid;
 }
 
 .header-button-container a.active:hover {
     background-color: var(--hover-color);
     transition-duration: 0.5s;
+    color: white;
     transition-property: background-color;
     transition-timing-function: ease-in-out;
 }
@@ -246,6 +257,11 @@ code {
     padding: 1rem 1rem;
     border-radius: 1rem;
     background-color: var(--chip-container-color);
+}
+
+.technology-container p {
+    min-width: 3rem;
+    text-align: center;
 }
 
 .technology-container:hover {
@@ -338,6 +354,23 @@ code {
     border-radius: 2rem;
     width: 100%;
     padding: 1rem;
+}
+
+.project-tags-container {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.project-tag {
+    color: white;
+    background-color: var(--tag-color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+    margin: 0.2rem;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .blog-card-container {

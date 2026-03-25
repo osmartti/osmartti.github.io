@@ -1,102 +1,90 @@
+<script>
+	import ProjectCard from "./ProjectCard.svelte";
+</script>
+
 <div id="work">
 	<div class="topic-container fade-in delay-1" style="display: block;">
 		<div>
 			<h2 class="padded-title">Projects & roles</h2>
 			<div class="work-projects-container fade-in-text delay-2">
-				<div class="work-project">
-					<h3>Employee Experience</h3>
-					<h4>2025</h4>
-					<p>
-						Worked as lead developer (<b>React + Azure Functions</b
-						>), architect (<b>Azure</b>) & Scrum Master. Created an
+				<ProjectCard
+					title="Employee Experience"
+					date="2026"
+					description="Worked as lead developer, architect & Scrum Master. Created an
 						inhouse tool for upkeeping talents skills,
 						certifications and CVs. Included also data analytics for
 						managers to monitor their employees career growth &
-						experience.
-					</p>
-				</div>
-				<div class="work-project">
-					<h3>Material Master Data Suite - product</h3>
-					<h4>2024</h4>
-					<p>
-						Worked as lead developer (<b>SAPUI5 + SAP CAP</b>),
-						architect (<b>SAP BTP</b>) & Scrum Master. Created an
-						inhouse product for creating material with more ease to
-						upkeep master data.
-					</p>
-				</div>
-				<div class="work-project">
-					<h3>Steelfinder</h3>
-					<h4>2023</h4>
-					<p>
-						Worked as Azure architect + API developer (<b
-							>NodeJS + PSQL</b
-						>) + Mendix developer. Client wanted a product where
-						anyone interested in buying steel can find their
-						offerings, check their chemical compositions & corrosion
-						data.
-					</p>
-				</div>
-				<div class="work-project">
-					<h3>RCA - product</h3>
-					<h4>2023</h4>
-					<p>
-						Worked as full-stack developer (<b
-							>React + AWS Lamda + MySQL</b
-						>) and planned AWS architecture. Created a product for
+						experience."
+					tags="React,TypeScript,Azure Functions,Azure,DevOps,Scrum"
+				/>
+				<ProjectCard
+					title="Material Master Suite"
+					date="2025"
+					description="Worked as lead developer,
+						architect & Scrum Master. Created a SaaS product 
+                        for creating material in SAP with more ease to upkeep master data.
+                        Product was released to SAP Industry Store."
+					tags="SAPUI5,SAP CAP,SAP Fiori,SAP BTP,DevOps,Scrum"
+				/>
+				<ProjectCard
+					title="RCA - product"
+					date="2024"
+					description="Worked as full-stack developer with React + AWS Lamda + MySQL stack 
+                        and planned AWS architecture. Created a product for
 						client. Main focus on this project was to make it
 						dynamical to fit client's customers needs. Docker was
-						used for AWS Lambdas + Databases in local development.
-					</p>
-				</div>
-				<div class="work-project">
-					<h3>RCA tool</h3>
-					<h4>2021</h4>
-					<p>
-						Worked as full-stack developer (<b
-							>React + Java + MySQL</b
-						>) for Root Cause Analysis tool. Tool is heavily used by
-						the customer daily, in multiple countries.
-					</p>
-				</div>
-				<div class="work-project">
-					<h3>SAP Cloud Foundry environment set-up</h3>
-					<h4>2020</h4>
-					<p>
-						Created SAP BTP Cloud Foundry environments for
-						development and production use. Configured all necessary
-						services and migrated first applications from NEO cloud.
-					</p>
-				</div>
-				<div class="work-project">
-					<h3>Loading cockpit</h3>
-					<h4>2020</h4>
-					<p>
-						Worked as front-end developer (<b>SAPUI5</b>). Created a
+						used for AWS Lambdas + Databases in local development."
+					tags="React,AWS,AWS Lambda,Docker,MySQL,DevOps"
+				/>
+				<ProjectCard
+					title="Steelfinder"
+					date="2023"
+					description="Worked as Azure architect, API developer & Mendix developer. 
+                        Client wanted a product where anyone interested in buying steel can find their
+						catalog, check their chemical compositions & corrosion
+						data."
+					tags="NodeJS,PSQL,Azure,Docker,Mendix,DevOps"
+				/>
+				<ProjectCard
+					title="RCA 24/7"
+					date="2021"
+					description="Worked as full-stack developer for Root Cause Analysis tool.
+                        Tool is heavily used by the customer daily, in multiple countries."
+					tags="React,Java,MySQL,Azure,DevOps"
+				/>
+				<ProjectCard
+					title="SAP CF environment"
+					date="2020"
+					description="Created SAP BTP Cloud Foundry environments for
+						development, test & production use. Configured all necessary
+						services and migrated first applications from NEO cloud."
+					tags="SAP BTP,Cloud Foundry"
+				/>
+				<ProjectCard
+					title="Loading Cockpit"
+					date="2020"
+					description="Worked as front-end developer. Created an
 						application that was used by warehouse workers to manage
 						their outbound data. Made integrations to 3rd party API,
-						which was used for RFID scanning.
-					</p>
-				</div>
-				<div class="work-project">
-					<h3>Assembly planner tool</h3>
-					<h4>2019</h4>
-					<p>
-						Worked as front-end developer (<b>SAPUI5</b>). Created a
-						application that was used for planning shipbuilding.
-					</p>
-				</div>
-				<div class="work-project">
-					<h3>PIRA&trade; -service</h3>
-					<h4>2018</h4>
-					<p>
-						Worked as full-stack developer (<b
-							>Vue + NodeJS/Java + PSQL</b
-						>). Developed application was used to create risk
-						assesments for SME companies in Finland by Finnish
-						Institute of Occupational Health
-					</p>
-				</div>
+						which was used for RFID scanning."
+					tags="SAPUI5,SAP Fiori,SAP BTP"
+				/>
+				<ProjectCard
+					title="Assembly planner tool"
+					date="2019"
+					description="Worked as front-end developer. Created an application
+                        that was used for planning tasks in shipbuilding industry"
+					tags="SAPUI5,SAP Firoi,SAP BTP"
+				/>
+				<ProjectCard
+					title="PIRA -service"
+					date="2018"
+					description="Worked as full-stack developer Developed an 
+                        application was used to create risk assesments for
+                        small / medium sized companies in Finland by Finnish
+						Institute of Occupational Health"
+					tags="JS,Vue,NodeJs,Java,PSQL,Docker,DevOps,Scrum"
+				/>
 			</div>
 		</div>
 	</div>

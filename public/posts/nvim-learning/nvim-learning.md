@@ -1,6 +1,6 @@
 ## Learning Neovim
 
-<img src="/images/nvim-1.png" alt="nvim-1" class="md-image" />
+<img src="/images/nvim-learning/nvim-1.png" alt="nvim-1" class="md-image" />
 
 ### The start
 I finally left VS Code for Neovim - but it has not been easy. I have been interested in learning to use these kind of text editors for quite some time. They have certain appeal to them: high customizability, lua plugin support and promises of productivity boost & incredible skill ceiling. I have been putting off learning nvim for a long time due to all kinds of other interests taking my time, but no longer.
@@ -30,7 +30,7 @@ Lazy comes with numerous of useful tools, main ones being:
 
 ##### Telescope
 [Telescope](https://github.com/nvim-telescope/telescope.nvim) is a highly customizable, Lua-based fuzzy finder plugin for Neovim that allows you to efficiently find, filter, preview, and pick files, buffers, Git commits, LSP references, and more. It makes navigating the code base so much easier and searching files faster.
-<img src="/images/telescope.png" alt="nvim-3" class="md-image" />
+<img loading="lazy" src="/images/nvim-learning/telescope.png" alt="nvim-3" class="md-image" />
 
 ##### Treesitter
 [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) is a plugin for enabling fast, syntax-aware code highlighting, folding and indentation.
@@ -46,13 +46,13 @@ LazyVim was easy to install. All I needed to do was to go to their [installation
 Then afterwards I just removed the `.git` folder, so that I could add it to my own repository in the future.
 
 After those steps I just used command `nvim` to open the editor and Voila!
-<img src="/images/nvim-2.png" alt="nvim-2" class="md-image" />
+<img loading="lazy" src="/images/nvim-learning/nvim-2.png" alt="nvim-2" class="md-image" />
 
 ### Applying themes
 Of course themes are mandatory thing for enjoying the job. One of the first things I did after installing the editor was downloading new themes. I searched [this site](https://github.com/topics/neovim-colorscheme) for some themes. Once I found a theme that was to my liking (catppuccin in my case) I followed the instructions that was available in their github site.
 
 Adding themes was easy. I created new file called `theme.lua` in my `nvim/lua/config` folder and pasted my themes code there:
-<img src="/images/nvim-theming.png" alt="nvim-2" class="md-image" />
+<img loading="lazy" src="/images/nvim-learning/nvim-theming.png" alt="nvim-2" class="md-image" />
 
 ### Coding with nvim - the starter experience
 Starting to code with nvim takes a lot of time to get used to and it is continuous learning. Here is a couple of differences that I think separates these two editors.
@@ -99,15 +99,15 @@ So I have my empty file here and I am in `NORMAL` mode.
 4. After highlighting the text I press `y` for yank (copy). After copying the editor shifts to `NORMAL` mode automatically. Then I just navigate to the place I want the new next to be and press `p` for paste.
 5. Then by pressing `:` I enter `COMMAND` mode. I write the command `w` for write, efficiently saving the file.
 
-<img src="/images/nvim-coding-example-1.png" alt="nvim-2" class="md-image" />
+<img loading="lazy" src="/images/nvim-learning/nvim-coding-example-1.png" alt="nvim-2" class="md-image" />
 
-<img src="/images/nvim-coding-example-2.png" alt="nvim-2" class="md-image" />
+<img loading="lazy" src="/images/nvim-learning/nvim-coding-example-2.png" alt="nvim-2" class="md-image" />
 
-<img src="/images/nvim-coding-example-3.png" alt="nvim-2" class="md-image" />
+<img loading="lazy" src="/images/nvim-learning/nvim-coding-example-3.png" alt="nvim-2" class="md-image" />
 
-<img src="/images/nvim-coding-example-4.png" alt="nvim-2" class="md-image" />
+<img loading="lazy" src="/images/nvim-learning/nvim-coding-example-4.png" alt="nvim-2" class="md-image" />
 
-<img src="/images/nvim-coding-example-5.png" alt="nvim-2" class="md-image" />
+<img loading="lazy" src="/images/nvim-learning/nvim-coding-example-5.png" alt="nvim-2" class="md-image" />
 
 That was really simple example of editing a file in nvim. Its really about switching between the modes, using hotkeys and macros efficiently and constantly learning to be more efficient with the editor.
 

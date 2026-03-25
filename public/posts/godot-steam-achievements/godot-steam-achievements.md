@@ -1,6 +1,6 @@
 ## Steam achievements in Godot
 
-<img src="/images/godot_splash_screen_original_logo_dark.png" alt="godot-splash" class="md-image" />
+<img src="/images/godot-steam-achievements/godot_splash_screen_original_logo_dark.png" alt="godot-splash" class="md-image" />
 
 ### Introduction
 I have been developing my game Afloat for a while now, and since the game release is getting closer, I wanted to implement Steam Achievements in the game. I have been using Godot as my game engine for the entirety of the development, and I wanted to share my experience with implementing Steam Achievements in Godot. In this blog post, I will go through the steps I took to implement Steam Achievements.
@@ -26,7 +26,7 @@ First of all, I needed to find a way to integrate Steamworks API with Godot. Aft
 
 To use the plugin, I simply clicked `AssetLib` tab in the Godot engine and searched for "Godot Steam". Then I downloaded it from the Godot Asset Library and added it to my project.
 
-<img src="/images/godot_steam_integration.png" alt="godot-steam-integration" class="md-image" />
+<img src="/images/godot-steam-achievements/godot_steam_integration.png" alt="godot-steam-integration" class="md-image" />
 
 After downloading the plugin usually you need to go to `Project Settings` tab of your editor and add the path to the plugin in the `Plugins` section. However, in this case, the plugin was added to my project without any issues, so I didn't have to do anything else.
 
@@ -37,7 +37,7 @@ I created a new script called `SteamHandler.gd` in my `autoloads` folder. This s
 
 For the script I needed to find out what was my game's `App ID` in order to set the environment variables correctly. I found my game's `App ID` in the `General` section of my game's dashboard in Steamworks.
 
-<img src="/images/steam_app_id.png" alt="app_id" class="md-image" />
+<img src="/images/godot-steam-achievements/steam_app_id.png" alt="app_id" class="md-image" />
 
 In the script I added `_init` and `_ready` functions to initialize some required variables and to initialize the connection to Steamworks API. 
 
@@ -103,7 +103,7 @@ After implementing the logic for unlocking achievements in my game, I needed to 
 
 Achievements have properties such as `API Name`, `Display Name`, `Description`, and `Hidden`. The `API Name` is the unique identifier for the achievement that I will use in my code to unlock it. The `Display Name` is the name that will be shown to players when they earn the achievement. The `Description` is a brief explanation of what the achievement is for. The `Hidden` property determines whether the achievement is visible to players before they earn it. For now I don't have any hidden achievements in my game, but I might add some in the future.
 
-<img src="/images/achievement_steam.png" alt="achievemenet_steam" class="md-image" />
+<img src="/images/godot-steam-achievements/achievement_steam.png" alt="achievemenet_steam" class="md-image" />
 
 They also have an icon that is shown to players when they earn the achievement. Those icons I created next.
 
@@ -113,11 +113,11 @@ which is a pixel art tool that allows you to create sprites and animations.
 
 I wanted my achievement icons to be 64x64 pixels, so I created a new sprite with size of 128x64, which allowed me to have two versions of each icon; one for the unlocked version and one for the locked version of the achievement.
 
-<img src="/images/achievement_example.png" alt="achievement_example" class="md-image" />
+<img src="/images/godot-steam-achievements/achievement_example.png" alt="achievement_example" class="md-image" />
 
 After creating first icons, I added more icons for the rest of the achievement in the same image.
 
-<img src="/images/achievement_whole.png" alt="achievement_whole" class="md-image" />
+<img src="/images/godot-steam-achievements/achievement_whole.png" alt="achievement_whole" class="md-image" />
 
 Then I created a `lua` script for splitting and exporting the icons. This is completely optional step, but I made it so it is easier to export the icons in the future if I need to make some changes to them. The script takes the original sprite and splits it into 64x64 icons and saves them as separate `PNG` files.
 
@@ -175,16 +175,16 @@ After running the script I got the icons for each achievement and I uploaded the
 ### Publishing achievements
 After I had uploaded the icons for each achievement and saved the changes, I still needed to publish the Achievements in order for them to be visible for players. To publish my changes I went to `Publish` tab of Steamworks dashboard and clicked the `Publish` button.
 
-<img src="/images/achievement_steam_2.png" alt="publish_steam" class="md-image" />
+<img src="/images/godot-steam-achievements/achievement_steam_2.png" alt="publish_steam" class="md-image" />
 
 ### Testing achievements
 After all the steps were completed I proceeded to test the achievement in my game. Now that the Steam integration was implemented, I could connect to Steam even when I ran the game from the Godot editor. I ran the game and unlocked some achievements to see if they were working correctly.
 
-<img src="/images/steam_achievement_1.png" alt="steam_achievement_1" class="md-image" />
+<img src="/images/godot-steam-achievements/steam_achievement_1.png" alt="steam_achievement_1" class="md-image" />
 
 After unlocking the achievements, I checked my Steam profile to see if they were displayed correctly.
 
-<img src="/images/steam_achievement_2.png" alt="steam_achievement_2" class="md-image" />
+<img src="/images/godot-steam-achievements/steam_achievement_2.png" alt="steam_achievement_2" class="md-image" />
 
 ### Conclusion
 Implementing Steam achievements in my game was a great learning experience. It allowed me to learn how to integrate Steamworks API with Godot and how to create and manage achievements in the Steamworks dashboard. I am happy how this turned out and I hope my achievements are not too difficult to unlock for the players. :)
