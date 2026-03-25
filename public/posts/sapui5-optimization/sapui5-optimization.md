@@ -22,16 +22,16 @@ Client reported these problems at later stages of the project, which made it dif
 ### Measuring performance
 To measure the performance of our application, we used the Chrome DevTools Performance tab. We recorded the performance of the application before and after the optimizations to see the difference. For the measurements we used the same set of data and performed the same actions in both the fixed and non-fixed versions of the application to have a fair comparison.
 
-SAPUI5 offers a [guide](https://help.sap.com/docs/ABAP_PLATFORM_NEW/468a97775123488ab3345a0c48cadd8f/408b40efed3c416681e1bd8cdd8910d4.html) on how to increase the performance of SAPUI5 application for basic scenarios, but in our case we had to do a lot of custom optimizations to achieve the performance we wanted.
+SAPUI5 offers a [guide](https://help.sap.com/docs/ABAP_PLATFORM_NEW/468a97775123488ab3345a0c48cadd8f/408b40efed3c416681e1bd8cdd8910d4.html) on how to increase the performance of SAPUI5 application for basic scenarios, but in our case we had to do a lot of other optimizations to achieve better performance.
 
 #### Recording performance
-1. Open the application in Chrome and go to the Performance tab in DevTools.
+First, open the application in Chrome and go to the Performance tab in DevTools.
 <img src="/images/sapui5-optimization/performance-1.png" alt="performance-1" class="md-image" />
-2. Click on the "Record" button then perform actions that we wanted to measure.
+Then click on the "Record" button then perform actions that we wanted to measure.
 <img src="/images/sapui5-optimization/performance-2.png" alt="performance-2" class="md-image" />
-3. After performing the actions, click on "Stop" button to stop the recording.
+After performing the actions, click on "Stop" button to stop the recording.
 <img src="/images/sapui5-optimization/performance-3.png" alt="performance-3" class="md-image" />
-4. Analyze the recorded performance data.
+After these steps you analyze the recorded performance data.
 
 We also used network tab to measure the time for the backend calls and the time for the data to be loaded into the model. This helped us to identify if there were any issues with the backend calls or if the problem was solely on the client side. In our case backend calls were not the issue.
 
@@ -169,7 +169,7 @@ To this:
 ```
 
 ### When to consider optimization
-You cannot optimize the performance of an application without knowing where the bottlenecks are beforehand. In our case, we identified the performance issues at later stages of the project as the customer started to test the application more rigorously. Some things can be identified during the development phase, such as complex model structure, but most of the performance issues can only be identified when they are tested by the customer with large sets of data in production environment.
+You cannot optimize the performance of an application beforehand without knowing where are the bottlenecks. In our case, we identified the performance issues at later stages of the project as the customer started to test the application more rigorously. Some things can be identified during the development phase, such as complex model structure, but most of the performance issues can only be identified when they are tested by the customer with large sets of data in production environment.
 
 ### Conclusion
 By doing the steps we described in the **Main Causes** part, we were able to significantly improve the performance of the application. Some milestones we achieved were:
@@ -193,11 +193,12 @@ By doing the steps we described in the **Main Causes** part, we were able to sig
 <img src="/images/sapui5-optimization/local-availability-template-change.png" alt="local-availability-template-change" class="md-image" />
 
 - Reduce the time it takes to change date times for orders and operations from `~20s` to `~3s`
+- Reduce the time it takes to undo template change from `~300s` to `~5s`
 
 Overall, we learned what were the pain points of our application regarding performance. In summary, we can say that the main causes of performance issues were:
-- Using `structuredClone` to create copies of model data.
+- Using `structuredClone` to create copies of model data when model data is complex & large.
 - Using loops inside loops.
-- Using `this.getModel('ModelName').getProperty('/path')` inside loops.
+- Using `this.getModel('ModelName')` inside loops.
 - Using `JSONModel` method `updateBindings(true)` to force update all bindings on the model.
 - Unnecessarily complex model structure.
 

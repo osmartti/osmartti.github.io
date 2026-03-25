@@ -7,7 +7,7 @@
 		<div>
 			<h2 class="padded-title">Personal projects</h2>
 			<Card
-				title="afloat"
+				title="Afloat"
 				imageSrc="images/afloat_capsule.png"
 				imageAlt="afloat_capsule"
 				imageHref=""
@@ -17,8 +17,8 @@
                 shop for useful items, and meet quirky new friends along the way."
 				additionalText="I created all the art, music, and most of the sound effects myself, as well as did all the coding. 
                 Afloat is built using the Godot engine. This has been my passion project for several years, and I’ve poured my heart into every part of it."
-				link=""
-				linkText=""
+				link="https://store.steampowered.com/app/4232810/Afloat/"
+				linkText="Afloat Steam page"
 			/>
 			<Card
 				title="pomodoro"
