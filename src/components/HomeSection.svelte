@@ -42,39 +42,37 @@
 		<div>
 			<h2 class="padded-title">Timeline</h2>
 			<div class="experience-container fade-in-text delay-2">
-				<p><b>Present</b></p>
-				<p>
-					Lead Developer @ <b>Neomore Consulting Oy</b> as Team Lead, Scrum
-					Master, Cloud Architect & Full-Stack developer
-				</p>
-			</div>
-			<div class="experience-container fade-in-text delay-2">
-				<p><b>2021</b></p>
-				<p>
-					Senior Developer @ <b>Neomore Consulting Oy</b> as Cloud Architect
-					& Full-Stack developer
-				</p>
-			</div>
-			<div class="experience-container fade-in-text delay-2">
-				<p><b>2019</b></p>
-				<p>
-					Junior Developer @ <b>Neomore Consulting Oy</b> as Full-stack
-					developer
-				</p>
+				<p><b>2019 - Now</b></p>
+				<div>
+					<p>
+						Junior Senior & Lead Developer @ <b
+							>Neomore Consulting Oy</b
+						>
+					</p>
+					<p>
+						<i>
+							Team Lead &bull; Scrum Master &bull; Cloud Architect
+							&bull; Full-Stack developer
+						</i>
+					</p>
+				</div>
 			</div>
 			<div class="experience-container fade-in-text delay-2">
 				<p><b>2018</b></p>
-				<p>
-					Junior Developer @ <b
-						>Finnish Institute of Occupational Health</b
-					> as Full-stack developer
-				</p>
+				<div>
+					<p>
+						Junior Developer @ <b
+							>Finnish Institute of Occupational Health</b
+						>
+					</p>
+					<p><i>Full-Stack developer</i></p>
+				</div>
 			</div>
 			<div class="experience-container fade-in-text delay-2">
 				<p><b>2016</b></p>
 				<p>
 					Completed Bachelor of Business Administration (BBA) @ <b
-						>Haaga-Helia University of Applied sciences</b
+						>Haaga-Helia University of Applied Sciences</b
 					>
 				</p>
 			</div>

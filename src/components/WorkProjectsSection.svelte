@@ -197,6 +197,10 @@
 					<img src="images/technologies/godot.png" alt="godot.png" />
 					<p>Godot</p>
 				</div>
+				<div class="technology-container">
+					<img src="images/technologies/rust.png" alt="rust.png" />
+					<p>Rust</p>
+				</div>
 			</div>
 		</div>
 	</div>
