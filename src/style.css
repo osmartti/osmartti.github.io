@@ -147,8 +147,14 @@ code {
     background-color: var(--hover-color);
     cursor: pointer;
     transition-duration: 0.5s;
-    transition-property: background-color;
+    transition-property: background-color, color;
     transition-timing-function: ease-in-out;
+    color: white;
+}
+
+.social-link-container:hover img {
+    filter: brightness(0) invert(1);
+    transition: filter 0.5s ease-in-out;
 }
 
 /* tab-container */
