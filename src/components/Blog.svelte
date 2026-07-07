@@ -24,16 +24,6 @@
 			date: "2026/03/10",
 			tags: ["godot", "steam", "game-development", "gdscript"]
 		}
-		// {
-		// 	title: "Performance optimization of a SAPUI5 application",
-		// 	description: "Real-world techniques for diagnosing and fixing performance bottlenecks in a SAP Fiori / SAPUI5 application, including lazy loading, OData request tuning, and UI rendering improvements.",
-		// 	folder: "sapui5-optimization",
-		// 	slug: "sapui5-optimization",
-		// 	imageSrc: "images/sapui5-optimization/sapui5-optimization-card.jpg",
-		// 	imageAlt: "Performance optimization of a SAPUI5 application",
-		// 	date: "2026/03/16",
-		// 	tags: ["sapui5", "fiori", "performance", "sap"]
-		// }
 	];
 	posts.sort((a, b) => new Date(b.date) - new Date(a.date));
 </script>
