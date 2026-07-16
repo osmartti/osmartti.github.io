@@ -45,7 +45,7 @@
 				<p><b>2019 - Now</b></p>
 				<div>
 					<p>
-						Junior Senior & Lead Developer @ <b
+						Junior, Senior & Lead Developer @ <b
 							>Neomore Consulting Oy</b
 						>
 					</p>
