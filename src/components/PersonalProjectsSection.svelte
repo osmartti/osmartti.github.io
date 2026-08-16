@@ -21,6 +21,19 @@
 				linkText="Afloat Steam page"
 			/>
 			<Card
+				title="KanjiStack"
+				imageHref="https://osmartti.github.io/kanjistack/"
+				imageSrc="images/kanjistack.png"
+				imageAlt="KanjiStack project screenshot"
+				imageAriaLabel="View KanjiStack project"
+				paragraph="I created this application to support my own Japanese studies, focusing on kanji and vocabulary learning. It features around 2,200 of the 
+				most common kanji, 7,000+ vocabulary entries, progress tracking, offline support, and more. Designed primarily for mobile use, it has become a tool I 
+				regularly use throughout my Japanese studies."
+				additionalText=""
+				link="https://osmartti.github.io/kanjistack/"
+				linkText="Start learning now!"
+			/>
+			<Card
 				title="pomodoro"
 				imageHref="https://github.com/osmartti/pomodoro"
 				imageSrc="images/pomodoro.png"
@@ -44,6 +57,20 @@
 				link="https://github.com/osmartti/gitdiff"
 				linkText="Check it out here!"
 			/>
+		</div>
+	</div>
+	<div class="topic-container fade-in delay-1">
+		<div>
+			<a
+				href="https://buymeacoffee.com/oussdev"
+				target="_blank"
+				class="link"
+			>
+				<div class="social-link-container">
+					<img src="images/bmc-logo.svg" alt="BuyMeACoffee logo" />
+					<p>Want to support? Buy me a coffee!</p>
+				</div>
+			</a>
 		</div>
 	</div>
 </div>

@@ -190,7 +190,6 @@ code {
     border-block-color: var(--hover-color);
     background-color: var(--active-button-color);
     color: white;
-    border-bottom: solid;
 }
 
 .header-button-container a.active:hover {
