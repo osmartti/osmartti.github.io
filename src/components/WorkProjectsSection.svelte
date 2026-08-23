@@ -73,7 +73,7 @@
 					title="Assembly planner tool"
 					date="2019"
 					description="Worked as front-end developer. Created an application
-                        that was used for planning tasks in shipbuilding industry"
+                        that was used for planning tasks in shipbuilding industry."
 					tags="SAPUI5,SAP Firoi,SAP BTP"
 				/>
 				<ProjectCard
@@ -82,7 +82,7 @@
 					description="Worked as full-stack developer Developed an 
                         application was used to create risk assesments for
                         small / medium sized companies in Finland by Finnish
-						Institute of Occupational Health"
+						Institute of Occupational Health."
 					tags="JS,Vue,NodeJs,Java,PSQL,Docker,DevOps,Scrum"
 				/>
 			</div>

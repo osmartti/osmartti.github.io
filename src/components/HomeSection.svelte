@@ -17,23 +17,28 @@
 			<h2 class="fade-in delay-1 padded-title">About me</h2>
 			<div class="fade-in-text delay-2">
 				<p>
-					I'm a full-stack developer with 8+ years of experience,
-					primarily working with JavaScript, TypeScript, and Java. In
-					addition, I have experience in Python and shell scripting.
-					I'm passionate about building cool & efficient systems.
+					I'm a full-stack developer with 8+ years of experience of
+					building web applications and products, primarily with
+					JavaScript, TypeScript, and Java. I enjoy working across the
+					stack and solving problems end-to-end, from frontend and
+					backend development to cloud architecture and deployment.
 				</p>
 				<p>
-					Beyond coding, I have hands-on experience with cloud
-					architecture and services, including AWS, Azure, and SAP
-					BTP. Most of my professional career I have worked as SAP
-					consultant. In the past years, I have led a development team
-					focusing on building SaaS products. I'm also a certified
-					Scrum Master (PSM 1), and I value agile principles & team
-					collaboration.
+					I'm currently working as a lead developer at Neomore
+					Consulting. In recent years, I've led a development team
+					while staying hands-on with development, cloud architecture
+					and product delivery. Over the years I have worked with a
+					wide range of technologies, including AWS, Azure, SAP BTP,
+					various databases, Python and shell scripting. I'm also a
+					certified Scrum Master (PSM 1), and I value agile principles
+					& team collaboration.
 				</p>
 				<p>
-					My passion is combining creative work & coding to create
-					cool digital experiences.
+					Outside of work, game development has been a long-time hobby
+					of mine. I've released a game on Steam and I'm currently
+					working on my next one. I enjoy combining creative work with
+					programming and taking projects from an idea from all the
+					way to something people can actually use.
 				</p>
 			</div>
 		</div>
@@ -45,9 +50,7 @@
 				<p><b>2019 - Now</b></p>
 				<div>
 					<p>
-						Senior & Lead Developer @ <b
-							>Neomore Consulting Oy</b
-						>
+						Senior & Lead Developer @ <b>Neomore Consulting Oy</b>
 					</p>
 					<p>
 						<i>
@@ -58,7 +61,7 @@
 				</div>
 			</div>
 			<div class="experience-container fade-in-text delay-2">
-				<p><b>2018</b></p>
+				<p><b>2018 - 2019</b></p>
 				<div>
 					<p>
 						Junior Developer @ <b
@@ -69,7 +72,7 @@
 				</div>
 			</div>
 			<div class="experience-container fade-in-text delay-2">
-				<p><b>2016</b></p>
+				<p><b>2016 - 2109</b></p>
 				<p>
 					Completed Bachelor of Business Administration (BBA) @ <b
 						>Haaga-Helia University of Applied Sciences</b

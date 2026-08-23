@@ -54,7 +54,7 @@
 	{#if publishDate}
 		<meta property="article:published_time" content={publishDate} />
 	{/if}
-	{#each tags as tag}
+	{#each tags as tag(tag)}
 		<meta property="article:tag" content={tag} />
 	{/each}
 
@@ -66,8 +66,4 @@
 		<meta name="twitter:image" content={image} />
 	{/if}
 
-	<!-- JSON-LD structured data -->
-	{#if jsonLd}
-		{@html `<script type="application/ld+json">${jsonLd}<\/script>`}
-	{/if}
 </svelte:head>
