@@ -72,7 +72,7 @@
 				</div>
 			</div>
 			<div class="experience-container fade-in-text delay-2">
-				<p><b>2016 - 2109</b></p>
+				<p><b>2016 - 2019</b></p>
 				<p>
 					Completed Bachelor of Business Administration (BBA) @ <b
 						>Haaga-Helia University of Applied Sciences</b
