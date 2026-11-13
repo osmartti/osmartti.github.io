@@ -29,7 +29,7 @@
 				<ProjectCard
 					title="RCA - product"
 					date="2024"
-					description="Worked as full-stack developer with React + AWS Lamda + MySQL stack 
+					description="Worked as full-stack developer with React + AWS Lambda + MySQL stack 
                         and planned AWS architecture. Created a product for
 						client. Main focus on this project was to make it
 						dynamical to fit client's customers needs. Docker was
