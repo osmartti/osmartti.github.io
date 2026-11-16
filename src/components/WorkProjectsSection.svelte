@@ -8,6 +8,15 @@
 			<h2 class="padded-title">Projects & roles</h2>
 			<div class="work-projects-container fade-in-text delay-2">
 				<ProjectCard
+					title="Finance AI solutions"
+					date="2026"
+					description="Worked as AI developer in a customer project. Created three working 
+					POC AI solutions related to finance remittance, data quality and data reconciliation processes. 
+					Solutions included Teams chat integration as user interface. Users could chat with AI agent 
+					that was running in AI Foundry or Copilot Studio."
+					tags="MS Foundry,Copilot Studio,AI,Power Automate,Azure Functions"
+				/>
+				<ProjectCard
 					title="Employee Experience"
 					date="2026"
 					description="Worked as lead developer, architect & Scrum Master. Created an
