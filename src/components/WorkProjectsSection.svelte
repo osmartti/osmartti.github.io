@@ -10,10 +10,11 @@
 				<ProjectCard
 					title="Finance AI solutions"
 					date="2026"
-					description="Worked as AI developer in a customer project. Created three working 
-					POC AI solutions related to finance remittance, data quality and data reconciliation processes. 
-					Solutions included Teams chat integration as user interface. Users could chat with AI agent 
-					that was running in AI Foundry or Copilot Studio."
+					description="Developed three functional AI proof-of-concept solutions for customer 
+					project, focusing on finance remittance, data quality, and data reconciliation 
+					processes. Integrated the solutions with Microsoft Teams, providing users with a 
+					conversational interface to interact with AI agents powered by Microsoft Foundry and 
+					Copilot Studio."
 					tags="MS Foundry,Copilot Studio,AI,Power Automate,Azure Functions"
 				/>
 				<ProjectCard
